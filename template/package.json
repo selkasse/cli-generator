@@ -1,0 +1,20 @@
+
+  {
+    "name": "{{name}}",
+    "description": "{{description}}",
+    "version": "{{version}}",
+    "license": "{{license}}",
+    "type": "module",
+    "bin": {
+      "{{name}}": "index.js",
+      "{{command}}": "index.js"
+    },
+    "author": {
+      "name": "{{authorName}}",
+      "email": "{{authorEmail}}",
+      "url": "{{authorURL}}"
+    },
+    "scripts":{
+      "format": "prettier --write ./**/*.{js,json}"
+    }
+  }

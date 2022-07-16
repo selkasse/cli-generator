@@ -1,0 +1,26 @@
+{
+  "name": "create-node-cli",
+  "type": "module",
+  "version": "0.0.1",
+  "description": "CLI to create Node.js CLIs",
+  "bin": {
+    "create-node-cli": "index.js",
+    "ncli": "index.js"
+  },
+  "dependencies": {
+    "await-to-js": "^3.0.0",
+    "cli-alerts": "^1.2.2",
+    "cli-footer": "^0.0.6",
+    "cli-handle-error": "^4.4.0",
+    "cli-handle-unhandled": "^1.1.1",
+    "cli-meow-help": "^3.1.0",
+    "cli-should-cancel": "^1.0.3",
+    "cli-welcome": "^2.2.2",
+    "copy-template-dir": "^1.4.0",
+    "data-store": "^3.1.0",
+    "enquirer": "^2.3.6",
+    "execa": "^6.1.0",
+    "meow": "^10.1.2",
+    "ora": "^6.1.0"
+  }
+}
