@@ -1,10 +1,10 @@
 {
-  "name": "@selkasse/cli-gen",
+  "name": "cliggy",
   "type": "module",
   "version": "0.0.1",
   "description": "CLI to create Node.js CLIs",
   "bin": {
-    "cli-gen": "index.js",
+    "cliggy": "index.js",
     "clig": "index.js"
   },
   "dependencies": {
