@@ -1,11 +1,11 @@
 {
-  "name": "cligen",
+  "name": "@selkasse/cli-gen",
   "type": "module",
   "version": "0.0.1",
   "description": "CLI to create Node.js CLIs",
   "bin": {
-    "cligen": "index.js",
-    "ncli": "index.js"
+    "cli-gen": "index.js",
+    "clig": "index.js"
   },
   "dependencies": {
     "await-to-js": "^3.0.0",
